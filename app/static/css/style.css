@@ -1,0 +1,103 @@
+/* Main app styling */
+.main .block-container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Sidebar styling */
+.sidebar .sidebar-content {
+  background-color: #f8f9fa;
+}
+
+/* Code block styling */
+pre {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  overflow-x: auto;
+}
+
+/* Highlighted code lines */
+.highlight-line {
+  background-color: rgba(255, 220, 200, 0.5);
+  display: block;
+  margin: 0 -10px;
+  padding: 0 10px;
+  border-left: 3px solid #ff7f50;
+}
+
+/* Review comment styling */
+.review-comment {
+  background-color: #f8f9fa;
+  border-left: 3px solid #4CAF50;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 0 5px 5px 0;
+}
+
+.review-comment-header {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #2E7D32;
+}
+
+.review-comment-body {
+  color: #333;
+}
+
+/* Button styling */
+.stButton>button {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+
+.stButton>button:hover {
+  background-color: #45a049;
+}
+
+/* File uploader styling */
+.uploadedFile {
+  border: 1px solid #e9ecef;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Language selector styling */
+.stSelectbox>div>div {
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* Line number styling for code display */
+.line-number {
+  color: #6c757d;
+  margin-right: 10px;
+  user-select: none;
+  display: inline-block;
+  width: 30px;
+  text-align: right;
+}
+
+/* Code container */
+.code-container {
+  border: 1px solid #e9ecef;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Review summary section */
+.review-summary {
+  background-color: #e8f5e9;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Loading spinner */
+.stSpinner>div {
+  border-color: #4CAF50 !important;
+}

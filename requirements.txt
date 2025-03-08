@@ -1,0 +1,7 @@
+streamlit
+langchain
+langchain-groq
+groq
+python-dotenv
+pygments
+streamlit-ace
