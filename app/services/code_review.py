@@ -18,7 +18,7 @@ def review_code(file_content, language, file_name):
     """
     try:
         # Get the Groq API key from environment variables
-        groq_api_key = "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"
+        groq_api_key = ""
         if not groq_api_key:
             return {
                 "summary": "Error: GROQ_API_KEY environment variable not set. Please set your Groq API key in the .env file.",
